@@ -11,12 +11,22 @@
   <body>
     <main>
       <img src="logo.png" alt="DFINITY logo" />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
+      <div>
+        <label for="Balance">Balance: &nbsp;</label>
+        <span id="balance"></span>
+      </div>
+
+      <div>
+        <label for="top-up">Enter amount to Top Up: &nbsp;</label>
+        <input id="top-up" alt="Top Up" type="text" />
+        <button id="btn-top-up">Top Up!</button>
+      </div>
+
+      <div>
+        <label for="withdraw">Enter amount to Withdraw: &nbsp;</label>
+        <input id="withdraw" alt="Withdraw" type="text" />
+        <button id="btn-withdraw">Withdraw!</button>
+      </div>
     </main>
   </body>
 </html>
